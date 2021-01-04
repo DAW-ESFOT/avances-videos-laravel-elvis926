@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8a95d163-26dd-4e31-9284-de5646495a89" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ArticlesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ArticlesTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,6 +125,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -149,10 +151,22 @@
       <updated>1606834179046</updated>
       <workItem from="1606834192274" duration="10671000" />
       <workItem from="1607443864354" duration="2350000" />
+      <workItem from="1608134147359" duration="190000" />
+      <workItem from="1608134435884" duration="2137000" />
+      <workItem from="1608156334998" duration="2862000" />
+      <workItem from="1609251496820" duration="1653000" />
+      <workItem from="1609700513337" duration="436000" />
+      <workItem from="1609774038324" duration="3665000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1609251978615">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860/-800.91.800.560@0.0.1440.860" timestamp="1609251978615" />
   </component>
 </project>

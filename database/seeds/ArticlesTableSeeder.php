@@ -15,6 +15,7 @@ class ArticlesTableSeeder extends Seeder
         //Vaciar la tabla.
         Article::truncate();
         $faker = \Faker\Factory::create();
+
         // Crear artículos ficticios en la tabla
         for($i = 0; $i < 50; $i++) {
             Article::create([
