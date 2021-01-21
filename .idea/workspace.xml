@@ -20,10 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a95d163-26dd-4e31-9284-de5646495a89" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ArticleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/JwtMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/JwtMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Resources/Article.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Resources/Article.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +181,7 @@
       <workItem from="1609774038324" duration="4592000" />
       <workItem from="1609854556098" duration="11801000" />
       <workItem from="1609940722917" duration="7562000" />
-      <workItem from="1611067567412" duration="14825000" />
+      <workItem from="1611067567412" duration="31228000" />
     </task>
     <servers />
   </component>
@@ -201,9 +201,17 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1611087946471">
+    <state x="505" y="205" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1611207923666">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860/-800.91.800.560@0.0.1440.860" timestamp="1611087946471" />
+    <state x="505" y="205" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.860/-800.91.800.560@0.0.1440.860" timestamp="1611207923666" />
+    <state x="450" y="185" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1611208143243">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="450" y="185" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1440.860/-800.91.800.560@0.0.1440.860" timestamp="1611208143243" />
+    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1611207397960">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="500" y="185" key="FileChooserDialogImpl/0.0.1440.860/-800.91.800.560@0.0.1440.860" timestamp="1611207397960" />
   </component>
 </project>
