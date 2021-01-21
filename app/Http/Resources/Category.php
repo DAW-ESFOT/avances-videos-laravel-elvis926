@@ -1,11 +1,10 @@
 <?php
 
 namespace App\Http\Resources;
-use App\User;
-use App\Category;
+
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class Article extends JsonResource
+class Category extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -16,13 +15,12 @@ class Article extends JsonResource
     public function toArray($request)
     {
         return [
-            'id' => $this->id,
-            'title' => $this->title,
-            'body' => $this->body,
+            'id'=>$this->id,
+            'name'=>$this->name,
+            'articles'=>'api/articles'.$this->article_id,
+            'user'=>"/api/users". $this->user_id,
             'created_at' => $this->created_at,
             'updated_at' => $this->updated_at,
-            'users'=> '/api/users'. ($this->user_id),
-            'category_id'=> '/api/categories'. $this->category_id
         ];
     }
 }
