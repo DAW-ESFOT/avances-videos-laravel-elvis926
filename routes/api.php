@@ -23,22 +23,19 @@ Route::get('articles', 'ArticleController@index');
 Route::group(['middleware' => ['jwt.verify']], function() {
 
     Route::get('user', 'UserController@getAuthenticatedUser');
+    //Articles
     Route::get('articles/{article}', 'ArticleController@show');
     Route::post('articles', 'ArticleController@store');
     Route::put('articles/{article}', 'ArticleController@update');
     Route::delete('articles/{article}', 'ArticleController@delete');
 
-    Route::get('categories', 'CategoryController@index');
-    Route::get('categories/{category}', 'CategoryController@show');
-    Route::post('categories', 'CategoryController@store');
-    Route::put('categories/{category}', 'CategoryController@update');
-    Route::delete('categories/{category}', 'CategoryController@delete');
+    //Comments
 
-    Route::get('comments', 'CommentController@index');
-    Route::get('comments/{comment}', 'CommentController@show');
-    Route::post('comments', 'CommentController@store');
-    Route::put('comments/{comment}', 'CommentController@update');
-    Route::delete('comments/{comment}', 'CommentController@delete');
+    Route::get('articles/{article}/comments', 'CommentController@index');
+    Route::get('articles/{article}/comments/{comment}', 'CommentController@show');
+    Route::post('articles/{article}/comments', 'CommentController@store');
+    Route::put('articles/{article}/comments/{comment}', 'CommentController@update');
+    Route::delete('articles/{article}/comments/{comment}', 'CommentController@delete');
 });
 
 
