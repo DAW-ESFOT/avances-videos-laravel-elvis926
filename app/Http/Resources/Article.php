@@ -19,10 +19,11 @@ class Article extends JsonResource
             'id' => $this->id,
             'title' => $this->title,
             'body' => $this->body,
+            'users'=> '/api/users'. ($this->user_id),
+            'category_id'=> '/api/categories'. $this->category_id,
+            'image'=>$this->image,
             'created_at' => $this->created_at,
             'updated_at' => $this->updated_at,
-            'users'=> '/api/users'. ($this->user_id),
-            'category_id'=> '/api/categories'. $this->category_id
         ];
     }
 }
