@@ -5,6 +5,7 @@ use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
+use App\Http\Resources\User as UserResource;
 use JWTAuth;
 use Tymon\JWTAuth\Exceptions\JWTException;
 class UserController extends Controller
@@ -52,7 +53,7 @@ class UserController extends Controller
         } catch (Tymon\JWTAuth\Exceptions\JWTException $e) {
             return response()->json(['token_absent'], $e->getStatusCode());
         }
-        return response()->json(compact('user'));
+        return response()->json(new UserResource($user),200);
     }
     public function index()
     {
